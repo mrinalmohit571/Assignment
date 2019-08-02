@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="in.amazon.testscripts.Headphones_BuyBestSeller">
+        <methods>
+          <include name="getTestData"/>
+          <include name="afterMainMethod"/>
+          <include name="headphones_BuyBestSeller"/>
+          <include name="before"/>
+          <include name="setUp"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- in.amazon.testscripts.Headphones_BuyBestSeller -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

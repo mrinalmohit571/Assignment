@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo" verbose="5">
+
+
+	<test name="Amazon" preserve-order="true" >
+
+		<classes>
+
+			<class name="in.amazon.testscripts.Headphones_BuyBestSeller" />
+
+
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[
+PR1: Login to Amazon and Clearing Cart items as a Pre-requisites]]>
+    </line>
+    <line>
+      <![CDATA[
+PR2: Verify Application is launched and 'Amazon Home' screen is displayed.]]>
+    </line>
+    <line>
+      <![CDATA[
+PR3: Open Email In Next Tab]]>
+    </line>
+    <line>
+      <![CDATA[
+PR4: verify Yahoo login Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR5: Enter Registered Email]]>
+    </line>
+    <line>
+      <![CDATA[
+PR6: Proceed By Entering Email]]>
+    </line>
+    <line>
+      <![CDATA[
+PR7: verify Yahoo Password Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR8: Enter Password for yahoo account.]]>
+    </line>
+    <line>
+      <![CDATA[
+PR9: Proceed By Entering Password]]>
+    </line>
+    <line>
+      <![CDATA[
+PR10: verify Yahoo Home Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR11: Switch to parent window and verify Amazon Home Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR12: Click on login Button]]>
+    </line>
+    <line>
+      <![CDATA[
+PR13: verify Amazon Sign In Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR14: Enter registered email Under Search Box]]>
+    </line>
+    <line>
+      <![CDATA[
+PR15: Click on continue Button]]>
+    </line>
+    <line>
+      <![CDATA[
+PR16: verify Amazon Sign In Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR17: Click on continue Button]]>
+    </line>
+    <line>
+      <![CDATA[
+PR18: verify Amazon Authentication Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR19: switch To Child Window and verify Inbox Page Displayed.]]>
+    </line>
+    <line>
+      <![CDATA[
+PR20: Click on email Link]]>
+    </line>
+    <line>
+      <![CDATA[
+PR21: verify Yahoo Mail Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR22: verify a new Authentication Mail received]]>
+    </line>
+    <line>
+      <![CDATA[
+PR23: Click On First Unread Authentication Mail]]>
+    </line>
+    <line>
+      <![CDATA[
+PR24: verify Yahoo Mail Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR25: verify Email Body is Opened]]>
+    </line>
+    <line>
+      <![CDATA[
+PR26: get OTP from mail]]>
+    </line>
+    <line>
+      <![CDATA[
+PR27: Log out from yahoo account]]>
+    </line>
+    <line>
+      <![CDATA[
+PR28: verify Yahoo login Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR29: Click on sign Out Button]]>
+    </line>
+    <line>
+      <![CDATA[
+PR30: verify Yahoo Home Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR31: Switch to parent window and verify Amazon Authentication Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR32: Enter OTP]]>
+    </line>
+    <line>
+      <![CDATA[
+PR33: click On Continue Button]]>
+    </line>
+    <line>
+      <![CDATA[
+PR34: verify Amazon Home Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR35: click On Shopping Cart Button]]>
+    </line>
+    <line>
+      <![CDATA[
+PR36: verify Shopping cart Pages Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+PR37: Clear all items from cart]]>
+    </line>
+    <line>
+      <![CDATA[
+1: Verify Search box displayed.]]>
+    </line>
+    <line>
+      <![CDATA[
+2: Enter text as 'headphone best seller' in search box.]]>
+    </line>
+    <line>
+      <![CDATA[
+3: Click on Search Button.]]>
+    </line>
+    <line>
+      <![CDATA[
+4: Verify Searched Item page displayed.]]>
+    </line>
+    <line>
+      <![CDATA[
+5: click On First Page If Not Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+6: Get List Of Best Seller Items Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+7: click And Open All Best Seller Items Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+8: verify All the Detailed Item Pages Displayed In Multiple Tabs]]>
+    </line>
+    <line>
+      <![CDATA[
+9: click On Add To Cart Button For Each Item]]>
+    </line>
+    <line>
+      <![CDATA[
+10: verify Search Page Displayed For Item]]>
+    </line>
+    <line>
+      <![CDATA[
+11: click On Shopping Cart Button]]>
+    </line>
+    <line>
+      <![CDATA[
+12: verify Shopping cart Pages Displayed]]>
+    </line>
+    <line>
+      <![CDATA[
+13: verify Added Items In Cart.]]>
+    </line>
+    <line>
+      <![CDATA[
+14: Logged out.]]>
+    </line>
+  </reporter-output>
+  <suite name="Demo" duration-ms="476591" started-at="2019-08-02T13:49:18Z" finished-at="2019-08-02T13:57:15Z">
+    <groups>
+      <group name="">
+        <method signature="Headphones_BuyBestSeller.headphones_BuyBestSeller()[pri:0, instance:in.amazon.testscripts.Headphones_BuyBestSeller@1ee807c6]" name="headphones_BuyBestSeller" class="in.amazon.testscripts.Headphones_BuyBestSeller"/>
+      </group> <!--  -->
+    </groups>
+    <test name="Amazon" duration-ms="476591" started-at="2019-08-02T13:49:18Z" finished-at="2019-08-02T13:57:15Z">
+      <class name="in.amazon.testscripts.Headphones_BuyBestSeller">
+        <test-method status="PASS" signature="before()[pri:0, instance:in.amazon.testscripts.Headphones_BuyBestSeller@1ee807c6]" name="before" is-config="true" duration-ms="305" started-at="2019-08-02T13:49:18Z" finished-at="2019-08-02T13:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:in.amazon.testscripts.Headphones_BuyBestSeller@1ee807c6]" name="setUp" is-config="true" duration-ms="22451" started-at="2019-08-02T13:49:18Z" finished-at="2019-08-02T13:49:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void in.amazon.testscripts.Headphones_BuyBestSeller.headphones_BuyBestSeller() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getTestData()[pri:0, instance:in.amazon.testscripts.Headphones_BuyBestSeller@1ee807c6]" name="getTestData" is-config="true" duration-ms="319480" started-at="2019-08-02T13:49:41Z" finished-at="2019-08-02T13:55:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+PR1: Login to Amazon and Clearing Cart items as a Pre-requisites]]>
+            </line>
+            <line>
+              <![CDATA[
+PR2: Verify Application is launched and 'Amazon Home' screen is displayed.]]>
+            </line>
+            <line>
+              <![CDATA[
+PR3: Open Email In Next Tab]]>
+            </line>
+            <line>
+              <![CDATA[
+PR4: verify Yahoo login Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR5: Enter Registered Email]]>
+            </line>
+            <line>
+              <![CDATA[
+PR6: Proceed By Entering Email]]>
+            </line>
+            <line>
+              <![CDATA[
+PR7: verify Yahoo Password Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR8: Enter Password for yahoo account.]]>
+            </line>
+            <line>
+              <![CDATA[
+PR9: Proceed By Entering Password]]>
+            </line>
+            <line>
+              <![CDATA[
+PR10: verify Yahoo Home Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR11: Switch to parent window and verify Amazon Home Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR12: Click on login Button]]>
+            </line>
+            <line>
+              <![CDATA[
+PR13: verify Amazon Sign In Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR14: Enter registered email Under Search Box]]>
+            </line>
+            <line>
+              <![CDATA[
+PR15: Click on continue Button]]>
+            </line>
+            <line>
+              <![CDATA[
+PR16: verify Amazon Sign In Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR17: Click on continue Button]]>
+            </line>
+            <line>
+              <![CDATA[
+PR18: verify Amazon Authentication Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR19: switch To Child Window and verify Inbox Page Displayed.]]>
+            </line>
+            <line>
+              <![CDATA[
+PR20: Click on email Link]]>
+            </line>
+            <line>
+              <![CDATA[
+PR21: verify Yahoo Mail Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR22: verify a new Authentication Mail received]]>
+            </line>
+            <line>
+              <![CDATA[
+PR23: Click On First Unread Authentication Mail]]>
+            </line>
+            <line>
+              <![CDATA[
+PR24: verify Yahoo Mail Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR25: verify Email Body is Opened]]>
+            </line>
+            <line>
+              <![CDATA[
+PR26: get OTP from mail]]>
+            </line>
+            <line>
+              <![CDATA[
+PR27: Log out from yahoo account]]>
+            </line>
+            <line>
+              <![CDATA[
+PR28: verify Yahoo login Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR29: Click on sign Out Button]]>
+            </line>
+            <line>
+              <![CDATA[
+PR30: verify Yahoo Home Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR31: Switch to parent window and verify Amazon Authentication Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR32: Enter OTP]]>
+            </line>
+            <line>
+              <![CDATA[
+PR33: click On Continue Button]]>
+            </line>
+            <line>
+              <![CDATA[
+PR34: verify Amazon Home Page Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR35: click On Shopping Cart Button]]>
+            </line>
+            <line>
+              <![CDATA[
+PR36: verify Shopping cart Pages Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+PR37: Clear all items from cart]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getTestData -->
+        <test-method status="PASS" signature="headphones_BuyBestSeller()[pri:0, instance:in.amazon.testscripts.Headphones_BuyBestSeller@1ee807c6]" name="headphones_BuyBestSeller" duration-ms="133248" started-at="2019-08-02T13:55:00Z" description="Buy best seller Headphones" finished-at="2019-08-02T13:57:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[
+1: Verify Search box displayed.]]>
+            </line>
+            <line>
+              <![CDATA[
+2: Enter text as 'headphone best seller' in search box.]]>
+            </line>
+            <line>
+              <![CDATA[
+3: Click on Search Button.]]>
+            </line>
+            <line>
+              <![CDATA[
+4: Verify Searched Item page displayed.]]>
+            </line>
+            <line>
+              <![CDATA[
+5: click On First Page If Not Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+6: Get List Of Best Seller Items Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+7: click And Open All Best Seller Items Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+8: verify All the Detailed Item Pages Displayed In Multiple Tabs]]>
+            </line>
+            <line>
+              <![CDATA[
+9: click On Add To Cart Button For Each Item]]>
+            </line>
+            <line>
+              <![CDATA[
+10: verify Search Page Displayed For Item]]>
+            </line>
+            <line>
+              <![CDATA[
+11: click On Shopping Cart Button]]>
+            </line>
+            <line>
+              <![CDATA[
+12: verify Shopping cart Pages Displayed]]>
+            </line>
+            <line>
+              <![CDATA[
+13: verify Added Items In Cart.]]>
+            </line>
+            <line>
+              <![CDATA[
+14: Logged out.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- headphones_BuyBestSeller -->
+        <test-method status="PASS" signature="afterMainMethod(org.testng.ITestResult)[pri:0, instance:in.amazon.testscripts.Headphones_BuyBestSeller@1ee807c6]" name="afterMainMethod" is-config="true" duration-ms="1385" started-at="2019-08-02T13:57:13Z" finished-at="2019-08-02T13:57:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=headphones_BuyBestSeller status=SUCCESS method=Headphones_BuyBestSeller.headphones_BuyBestSeller()[pri:0, instance:in.amazon.testscripts.Headphones_BuyBestSeller@1ee807c6] output=
+1: Verify Search box displayed.]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMainMethod -->
+        <test-method status="PASS" signature="tearDownSuite()[pri:0, instance:in.amazon.testscripts.Headphones_BuyBestSeller@1ee807c6]" name="tearDownSuite" is-config="true" duration-ms="1434" started-at="2019-08-02T13:57:15Z" finished-at="2019-08-02T13:57:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSuite -->
+      </class> <!-- in.amazon.testscripts.Headphones_BuyBestSeller -->
+    </test> <!-- Amazon -->
+  </suite> <!-- Demo -->
+</testng-results>
